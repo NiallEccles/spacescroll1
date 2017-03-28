@@ -1,0 +1,75 @@
+body{
+	background-color:#202024;
+}
+
+h1{
+	font-family: 'Muli', sans-serif;
+	color:#ffffff;
+	font-size: 54px;
+}
+
+#scroll{
+	color:#ffffff;
+}
+
+@font-face {
+    font-family: Droidiga;
+    src: url(fonts/Droidiga.otf);
+    font-family: Zekton;
+    src: url(fonts/zekton rg.ttf);
+}
+
+
+
+#mars_title{
+	font-family: Droidiga;
+	font-size: 53px;
+	color:#ef4a3e;
+	position:absolute; 
+	width:500px;
+	left:1480px;
+	bottom:100px;
+}
+
+#mars_desc{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	color:#ef4a3e;
+	position:absolute; 
+	width:500px;
+	left:1477px;
+	bottom:110px;
+	text-shadow: 2px 2px 8px #ef4a3e;
+}
+
+#mars img{
+	transition: all ease-in-out 300ms
+}
+
+#mars_hover:hover img{
+	width:700px;
+	height: 700px;
+	transition: all ease-in-out 300ms
+}
+
+#jupiter_title{
+	font-family: Zekton;
+	font-size: 53px;
+	color:#dbd1b4;
+	position:absolute; 
+	width:500px;
+	left:2045px;
+	bottom:100px;
+}
+
+#jupiter_desc{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	color:#dbd1b4;
+	position:absolute; 
+	width:500px;
+	left:2060px;
+	bottom:110px;
+	text-shadow: 2px 2px 8px #dbd1b4;
+}
+
